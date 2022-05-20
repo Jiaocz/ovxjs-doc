@@ -1,10 +1,11 @@
 const { pwaPlugin } = require('@vuepress/plugin-pwa')
+// const { docsearchPlugin } = require('@vuepress/plugin-docsearch')
 const { defaultTheme } = require('@vuepress/theme-default')
 
 module.exports = {
     lang: 'zh-CN',
-    title: 'ovx - 一个生成vite + vue的脚手架',
-    description: '一个生成vite + vue的脚手架，包含Element Plus、Ant Design等组件库及vue-router等生态',
+    title: 'ovx - 一个生成 vue + vite 的脚手架',
+    description: '一个生成 vue + vite 的脚手架，包含Element Plus、Ant Design等组件库及vue-router等生态',
     head: [
         ['link', { rel: 'shortcut icon', href: '/images/icons/favicon.ico' }],
         ['link', { rel: 'manifest', href: '/manifest.webmanifest' }],
@@ -37,5 +38,9 @@ module.exports = {
         backToHome: '返回首页',
     }),
 
-    plugins: [pwaPlugin({ skipWaiting: true })],
+    plugins: [
+        pwaPlugin({ skipWaiting: true }),
+        // TODO
+        // docsearchPlugin({}),
+    ],
 }
