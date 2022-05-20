@@ -1,0 +1,21 @@
+{
+    "name": "ovx 中文文档",
+    "short_name": "ovx",
+    "description": "ovx - 一个生成vite + vue的脚手架，包含Element Plus、Ant Design等组件库及vue-router等生态",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#fff",
+    "theme_color": "#ffffff",
+    "icons": [
+      {
+        "src": "/images/icons/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/images/icons/android-chrome-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }
