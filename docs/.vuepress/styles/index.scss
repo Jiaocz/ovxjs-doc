@@ -1,7 +1,12 @@
 :root {
     --c-brand: #ff9700;
-    --c-brand-light: #ffe3bb;
+    --c-brand-light: #ffba55;
     scroll-behavior: smooth;
+}
+
+html.dark {
+    --c-brand: #bb6f00;
+    --c-brand-light: #aa6500;
 }
 
 @font-face {
