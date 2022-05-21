@@ -21,6 +21,31 @@ module.exports = {
     theme: defaultTheme({
         navbar: [
             {
+                text: '快速上手',
+                link: '/quick-start/README.md',
+            },
+            {
+                text: '通用配置',
+                link: '/common/README.md',
+            },
+            // {
+            //     text: '模板配置',
+            //     children: [
+            //         {
+            //             text: 'Element Plus',
+            //             link: '/',
+            //         },
+            //         {
+            //             text: 'Element Plus TSX',
+            //             link: '/',
+            //         },
+            //         {
+            //             text: 'Ant Design',
+            //             link: '/',
+            //         },
+            //     ]
+            // },
+            {
                 text: 'Github',
                 link: 'https://github.com/Jiaocz/ovx'
             },
@@ -37,7 +62,6 @@ module.exports = {
         editLink: true,
         editLinkText: '在 GitHub 上编辑此页',
         editLinkPattern: ':repo/edit/:branch/docs/:path',
-        notFound: '未找到',
         backToHome: '返回首页',
     }),
 
