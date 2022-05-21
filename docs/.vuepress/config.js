@@ -69,9 +69,9 @@ module.exports = {
 
     plugins: [
         pwaPlugin({ skipWaiting: false }),
-	pwaPopupPlugin({}),
+        pwaPopupPlugin(),
         // TODO
         // docsearchPlugin({}),
-        searchPlugin({}),
+        searchPlugin(),
     ],
 }
