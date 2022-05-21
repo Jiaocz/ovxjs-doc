@@ -5,7 +5,6 @@ specifiers:
   '@vuepress/client': 2.0.0-beta.45
   '@vuepress/plugin-docsearch': 2.0.0-beta.45
   '@vuepress/plugin-pwa': 2.0.0-beta.45
-  '@vuepress/plugin-pwa-popup': 2.0.0-beta.45
   '@vuepress/plugin-search': 2.0.0-beta.45
   react: ^18.1.0
   react-dom: ^18.1.0
@@ -17,7 +16,6 @@ devDependencies:
   '@vuepress/client': 2.0.0-beta.45
   '@vuepress/plugin-docsearch': 2.0.0-beta.45_ohobp6rpsmerwlq5ipwfh5yigy
   '@vuepress/plugin-pwa': 2.0.0-beta.45
-  '@vuepress/plugin-pwa-popup': 2.0.0-beta.45
   '@vuepress/plugin-search': 2.0.0-beta.45
   react: 18.1.0
   react-dom: 18.1.0_react@18.1.0
@@ -1788,20 +1786,6 @@ packages:
       '@vuepress/core': 2.0.0-beta.45
       prismjs: 1.28.0
     transitivePeerDependencies:
-      - supports-color
-    dev: true
-
-  /@vuepress/plugin-pwa-popup/2.0.0-beta.45:
-    resolution: {integrity: sha512-xpj6DV7++1JPaeMu8hNJkEtE+SM8pEv2GKCq0hNAVzOl0PItYTKGxJURcBFgiX70RpT03pTn6kG94+TQuAxhVg==}
-    dependencies:
-      '@vuepress/client': 2.0.0-beta.45
-      '@vuepress/core': 2.0.0-beta.45
-      '@vuepress/plugin-pwa': 2.0.0-beta.45
-      '@vuepress/shared': 2.0.0-beta.45
-      '@vuepress/utils': 2.0.0-beta.45
-      vue: 3.2.34
-    transitivePeerDependencies:
-      - '@types/babel__core'
       - supports-color
     dev: true
 
