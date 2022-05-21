@@ -53,7 +53,12 @@ module.exports = {
             },
             {
                 text: '项目配置',
-                link: '/config/',
+                children: [
+                    {
+                        text: '通用配置',
+                        link: '/config/',
+                    }
+                ]
             },
         ],
         logo: 'https://static.orangii.cn/avatar/logo.svg',
