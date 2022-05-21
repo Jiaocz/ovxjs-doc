@@ -1,4 +1,5 @@
 const { pwaPlugin } = require('@vuepress/plugin-pwa')
+const { pwaPopupPlugin } = require('@vuepress/plugin-pwa-popup')
 // const { docsearchPlugin } = require('@vuepress/plugin-docsearch')
 const { searchPlugin } = require('@vuepress/plugin-search')
 const { defaultTheme } = require('@vuepress/theme-default')
@@ -67,7 +68,8 @@ module.exports = {
     }),
 
     plugins: [
-        pwaPlugin({ skipWaiting: true }),
+        pwaPlugin({ skipWaiting: false }),
+	pwaPopupPlugin({}),
         // TODO
         // docsearchPlugin({}),
         searchPlugin({}),
