@@ -69,7 +69,14 @@ module.exports = {
 
     plugins: [
         pwaPlugin({ skipWaiting: false }),
-        pwaPopupPlugin(),
+        pwaPopupPlugin({
+            locales: {
+                '/': {
+                    message: '发现新内容可用',
+                    buttonText: '刷新',
+                }
+            }
+        }),
         // TODO
         // docsearchPlugin({}),
         searchPlugin(),
