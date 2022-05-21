@@ -1,5 +1,7 @@
 const { pwaPlugin } = require('@vuepress/plugin-pwa')
+const { pwaPopupPlugin } = require('@vuepress/plugin-pwa-popup')
 // const { docsearchPlugin } = require('@vuepress/plugin-docsearch')
+const { searchPlugin } = require('@vuepress/plugin-search')
 const { defaultTheme } = require('@vuepress/theme-default')
 
 module.exports = {
@@ -10,6 +12,7 @@ module.exports = {
         ['link', { rel: 'shortcut icon', href: '/images/icons/favicon.ico' }],
         ['link', { rel: 'manifest', href: '/manifest.webmanifest' }],
         ['meta', { name: 'theme-color', content: '#ff9700' }],
+        ['script', {}, 'window._mfq = window._mfq || []; (function() { var mf = document.createElement("script"); mf.type = "text/javascript"; mf.defer = true; mf.src = "https://orangii.cn/mouseflow/6589d873-01ff-44a5-b883-bee2ad228e24.js"; document.getElementsByTagName("head")[0].appendChild(mf); })();']
     ],
 
     port: 3333,
@@ -39,8 +42,10 @@ module.exports = {
     }),
 
     plugins: [
-        pwaPlugin({ skipWaiting: true }),
+        pwaPlugin({ skipWaiting: false }),
+        pwaPopupPlugin({}),
         // TODO
         // docsearchPlugin({}),
+        searchPlugin({}),
     ],
 }
