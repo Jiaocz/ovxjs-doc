@@ -25,25 +25,13 @@ module.exports = {
             },
             {
                 text: '项目配置',
-                link: '/config/README.md',
+                children: [
+                    {
+                        text: '通用配置',
+                        link: '/config/',
+                    }
+                ]
             },
-            // {
-            //     text: '模板配置',
-            //     children: [
-            //         {
-            //             text: 'Element Plus',
-            //             link: '/',
-            //         },
-            //         {
-            //             text: 'Element Plus TSX',
-            //             link: '/',
-            //         },
-            //         {
-            //             text: 'Ant Design',
-            //             link: '/',
-            //         },
-            //     ]
-            // },
             {
                 text: 'Github',
                 link: 'https://github.com/Jiaocz/ovx'
@@ -52,6 +40,20 @@ module.exports = {
                 text: 'NpmJs',
                 link: 'https://npmjs.com/package/ovx'
             }
+        ],
+        sidebar: [
+            {
+                text: '首页',
+                link: '/',
+            },
+            {
+                text: '快速上手',
+                link: '/quick-start/',
+            },
+            {
+                text: '项目配置',
+                link: '/config/',
+            },
         ],
         logo: 'https://static.orangii.cn/avatar/logo.svg',
         repo: 'Jiaocz/ovxjs-doc',
