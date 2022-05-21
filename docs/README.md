@@ -4,14 +4,24 @@ heroText: ovx
 tagline: 一个生成 vue + vite 的脚手架 CLI
 footer: "<p>Copyright Orangii|橙梓 2022.</p><p><code>ovx</code> published under MIT, document published under CC-BY-4.0.</p>"
 footerHtml: true
+externalLinkIcon: false
+actions:
+  - text: 快速上手
+    link: /quick-start/README.md
+    type: primary
+  - text: 项目配置
+    link: /config/README.md
+    type: srcondary
 ---
 # ovx <Badge type="tip" text="v2" vertical="top" />
+[![Build Test](https://github.com/Jiaocz/ovx/actions/workflows/build-test.yml/badge.svg)](https://github.com/Jiaocz/ovx/actions/workflows/build-test.yml) [![License](https://img.shields.io/github/license/Jiaocz/ovx)](https://github.com/Jiaocz/ovx/blob/main/LICENSE)
+## 介绍
 
 ovx是一个便捷生成 vue + vite 项目基础模板的cli工具，旨在快速搭建一个项目基础，已免去重复的工作，~~以及回想自己之前是怎么做的过程~~。
 
 ![ovx screenshot](/images/ovx.jpg)
 
-::: details 一张巨大使用录制GIF图
+::: details 一张 8 MB的使用录制GIF图
 ![ovx screen record](/images/ovx.gif)
 :::
 

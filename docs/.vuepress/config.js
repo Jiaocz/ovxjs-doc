@@ -24,8 +24,8 @@ module.exports = {
                 link: '/quick-start/README.md',
             },
             {
-                text: '通用配置',
-                link: '/common/README.md',
+                text: '项目配置',
+                link: '/config/README.md',
             },
             // {
             //     text: '模板配置',
