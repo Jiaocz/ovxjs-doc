@@ -6,7 +6,7 @@
 
 并且，在此之前，希望你有对 **<abbr title="ECMA Script 6">ES6</abbr>** 有一定了解，在模板中将使用 **<abbr title="ES Module">ESM</abbr>** 的方法将外部组件等进行引入。
 
-本程序的预制均默认使用 **<font color="#42b883">Vue 3</font>**，如果你先前学习的是 Vue 2，你可以去学习一下 Vue 3 的一些新语法。
+本程序的预制均默认使用 **<span style="color: #42b883">Vue 3</span>**，如果你先前学习的是 Vue 2，你可以去学习一下 Vue 3 的一些新语法。
 > 参考 [从 Vue 2 迁移](https://v3-migration.vuejs.org/)
 
 本程序的所有模板均使用 TypeScript，虽然 TypeScript 也可以兼容 JavaScript，但是还是推荐你去学习 TypeScript 以体会到 TS 带来的便利。当然如果你不熟悉 TS，你也可以将全部变量定义为`any`类型，并使用`// @ts-ignore`取消ts检查的报错（如果你确定你写的 JS 没有问题）。
