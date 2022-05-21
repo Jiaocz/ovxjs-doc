@@ -68,14 +68,14 @@ module.exports = {
     }),
 
     plugins: [
-        pwaPlugin({ skipWaiting: false }),
+        pwaPlugin({ skipWaiting: false, updatePopup: true, serviceWorker: true }),
         pwaPopupPlugin({
             locales: {
                 '/': {
                     message: '发现新内容可用',
                     buttonText: '刷新',
                 }
-            }
+            },
         }),
         // TODO
         // docsearchPlugin({}),
