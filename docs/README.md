@@ -14,7 +14,7 @@ actions:
     type: srcondary
 ---
 # ovx <Badge type="tip" text="v2" vertical="top" />
-[![Build Test](https://github.com/Jiaocz/ovx/actions/workflows/build-test.yml/badge.svg)](https://github.com/Jiaocz/ovx/actions/workflows/build-test.yml) [![License](https://img.shields.io/github/license/Jiaocz/ovx)](https://github.com/Jiaocz/ovx/blob/main/LICENSE)
+[![Build Test](https://github.com/ovx-js/ovx/actions/workflows/build-test.yml/badge.svg)](https://github.com/ovx-js/ovx/actions/workflows/build-test.yml) [![License](https://img.shields.io/github/license/ovx-js/ovx)](https://github.com/ovx-js/ovx/blob/main/LICENSE)
 ## 介绍
 **O̲rangii V̲ue Ex̲ample**
 
