@@ -5,7 +5,7 @@ specifiers:
   '@vuepress/client': 2.0.0-beta.45
   '@vuepress/plugin-docsearch': 2.0.0-beta.45
   '@vuepress/plugin-pwa': 2.0.0-beta.45
-  '@vuepress/plugin-pwa-popup': link:@vuepress-local\plugin-pwa-popup
+  '@vuepress/plugin-pwa-popup': file:@vuepress-local\plugin-pwa-popup
   '@vuepress/plugin-search': 2.0.0-beta.45
   react: ^18.1.0
   react-dom: ^18.1.0
@@ -17,7 +17,7 @@ devDependencies:
   '@vuepress/client': 2.0.0-beta.45
   '@vuepress/plugin-docsearch': 2.0.0-beta.45_ohobp6rpsmerwlq5ipwfh5yigy
   '@vuepress/plugin-pwa': 2.0.0-beta.45
-  '@vuepress/plugin-pwa-popup': link:@vuepress-local/plugin-pwa-popup
+  '@vuepress/plugin-pwa-popup': file:@vuepress-local/plugin-pwa-popup
   '@vuepress/plugin-search': 2.0.0-beta.45
   react: 18.1.0
   react-dom: 18.1.0_react@18.1.0
@@ -1515,11 +1515,27 @@ packages:
       source-map: 0.6.1
     dev: true
 
+  /@vue/compiler-core/3.2.35:
+    resolution: {integrity: sha512-1Mtmh8ceVUoUsn/PME5oM+Dus648rCeV/fBaZ4ERLFbTHBJXj6QmDPrSn9mfEyPDXE0RYIwyJNn884NdWK+Yiw==}
+    dependencies:
+      '@babel/parser': 7.18.0
+      '@vue/shared': 3.2.35
+      estree-walker: 2.0.2
+      source-map: 0.6.1
+    dev: true
+
   /@vue/compiler-dom/3.2.34:
     resolution: {integrity: sha512-MFLUYDgy0aES9x1goU/pgxpzgT9IZOndO8qwQVSyVfUvl/CywEBtfBi5+8fsiBDhoGIT7g8qcsUUF1NYViU2vQ==}
     dependencies:
       '@vue/compiler-core': 3.2.34
       '@vue/shared': 3.2.34
+    dev: true
+
+  /@vue/compiler-dom/3.2.35:
+    resolution: {integrity: sha512-I4bXB9MkRSTJ3gVXRQ4iaYJgABZGew+K/CCBoAh9fdLaeY7A7uUlS5nWGOlICSVfOH0/xk4QlcXeGZYCJkEleA==}
+    dependencies:
+      '@vue/compiler-core': 3.2.35
+      '@vue/shared': 3.2.35
     dev: true
 
   /@vue/compiler-sfc/3.2.34:
@@ -1537,11 +1553,33 @@ packages:
       source-map: 0.6.1
     dev: true
 
+  /@vue/compiler-sfc/3.2.35:
+    resolution: {integrity: sha512-2wKQtnuHfwBFc7uV2Cmtms3Cc7u/u6kKJI3F+i0A+9xnuahK39cCMNJKHzI9x93Xai+uft64fDc5JSh8zDQBQA==}
+    dependencies:
+      '@babel/parser': 7.18.0
+      '@vue/compiler-core': 3.2.35
+      '@vue/compiler-dom': 3.2.35
+      '@vue/compiler-ssr': 3.2.35
+      '@vue/reactivity-transform': 3.2.35
+      '@vue/shared': 3.2.35
+      estree-walker: 2.0.2
+      magic-string: 0.25.9
+      postcss: 8.4.14
+      source-map: 0.6.1
+    dev: true
+
   /@vue/compiler-ssr/3.2.34:
     resolution: {integrity: sha512-zyaMdGJhxoA34ibWsXF7VH1PO5yrNB1MZg/ByRfXGM8JefGQaz+PpHvBy/5OI0ehEyhAyCb7279JdhYHacMZbw==}
     dependencies:
       '@vue/compiler-dom': 3.2.34
       '@vue/shared': 3.2.34
+    dev: true
+
+  /@vue/compiler-ssr/3.2.35:
+    resolution: {integrity: sha512-dJyqB8fZbvVQEnWl5VGxkWHTqx0ERnZXXqInFzyOX8FpTEidmQbUSmDrXidea7bZTdeg6ly94kZFGPYXT29mgQ==}
+    dependencies:
+      '@vue/compiler-dom': 3.2.35
+      '@vue/shared': 3.2.35
     dev: true
 
   /@vue/devtools-api/6.1.4:
@@ -1558,10 +1596,26 @@ packages:
       magic-string: 0.25.9
     dev: true
 
+  /@vue/reactivity-transform/3.2.35:
+    resolution: {integrity: sha512-VjdQU4nIrgsh1iPqAdYZufWgFqdH9fIl6ttO2PCFlLsrQl7b8BcuawM6moSBLF8damBzSNcqvbvQDBhsI3fyVQ==}
+    dependencies:
+      '@babel/parser': 7.18.0
+      '@vue/compiler-core': 3.2.35
+      '@vue/shared': 3.2.35
+      estree-walker: 2.0.2
+      magic-string: 0.25.9
+    dev: true
+
   /@vue/reactivity/3.2.34:
     resolution: {integrity: sha512-xbRIOPqxdNOr0zS47moRS6zf4BKd0z+55R85UJlo4r5ezqCktk6fYy1atY4tGzo7Maqh6QoKw3LtIKvpz8d7WA==}
     dependencies:
       '@vue/shared': 3.2.34
+    dev: true
+
+  /@vue/reactivity/3.2.35:
+    resolution: {integrity: sha512-6j9N9R1SwHVcJas4YqAzwdRS/cgmj3Z9aUert5Mv1jk5B9H9ivN/zot/fgMUbseWXigkkmX60OsfRbz49o8kCw==}
+    dependencies:
+      '@vue/shared': 3.2.35
     dev: true
 
   /@vue/runtime-core/3.2.34:
@@ -1571,11 +1625,26 @@ packages:
       '@vue/shared': 3.2.34
     dev: true
 
+  /@vue/runtime-core/3.2.35:
+    resolution: {integrity: sha512-P8AeGPRGyIiYdOdvLc/7KR8VSdbUGG8Jxdx6Xlj5okEjyV9IYxeHRIQIoye85K0lZXBH4zuh1syD1mX+oZ0KqQ==}
+    dependencies:
+      '@vue/reactivity': 3.2.35
+      '@vue/shared': 3.2.35
+    dev: true
+
   /@vue/runtime-dom/3.2.34:
     resolution: {integrity: sha512-uqizbaJqmNH3O4TRr+8cM1tid5ODWHyQYZ3CLWcjn3dLkf0N7wvNuhUELQUZU/wQLvVMhJUQNrmOqckHLm6Xpw==}
     dependencies:
       '@vue/runtime-core': 3.2.34
       '@vue/shared': 3.2.34
+      csstype: 2.6.20
+    dev: true
+
+  /@vue/runtime-dom/3.2.35:
+    resolution: {integrity: sha512-M5xrVJ/b0KqssjPQMdpwLp3KwzG1Tn2w/IrOptVqGY5c9fEBluIbm18AeO4Fr3YxfeyaPWm1rY8POrEso0UE3w==}
+    dependencies:
+      '@vue/runtime-core': 3.2.35
+      '@vue/shared': 3.2.35
       csstype: 2.6.20
     dev: true
 
@@ -1589,8 +1658,22 @@ packages:
       vue: 3.2.34
     dev: true
 
+  /@vue/server-renderer/3.2.35_vue@3.2.35:
+    resolution: {integrity: sha512-ZMF8V+bZ0EIjSB7yzPEmDlxRDOIXj04iqG4Rw/H5rIuBCf0b7rNTleiOldlX5haG++zUq6uiL2AVp/A9uyz+cw==}
+    peerDependencies:
+      vue: 3.2.35
+    dependencies:
+      '@vue/compiler-ssr': 3.2.35
+      '@vue/shared': 3.2.35
+      vue: 3.2.35
+    dev: true
+
   /@vue/shared/3.2.34:
     resolution: {integrity: sha512-zhEeB8TrFmTXmTXmu/wcjEhgrjO4xqdDQrCdPhjX7NxfoLqoBVKguOm8qyihWNLbP+41svYY4za9mqXyqFLzNg==}
+    dev: true
+
+  /@vue/shared/3.2.35:
+    resolution: {integrity: sha512-/sxDqMcy0MsfQ3LQixKYDxIinDYNy1dXTsF2Am0pv0toImWabymFQ8cFmPJnPt+gh5ElKwwn7KzQcDbLHar60A==}
     dev: true
 
   /@vuepress/bundler-vite/2.0.0-beta.45:
@@ -1648,7 +1731,7 @@ packages:
       '@vuepress/utils': 2.0.0-beta.45
       gray-matter: 4.0.3
       toml: 3.0.0
-      vue: 3.2.34
+      vue: 3.2.35
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -3890,6 +3973,16 @@ packages:
       '@vue/shared': 3.2.34
     dev: true
 
+  /vue/3.2.35:
+    resolution: {integrity: sha512-mc/15B0Wjd/4JMMGOcXUQAeXfjyg8MImA2EVZucNdyDPJe1nXhMNbYXOEVPEGfk/mCeyszCzl44dSAhHhQVH8g==}
+    dependencies:
+      '@vue/compiler-dom': 3.2.35
+      '@vue/compiler-sfc': 3.2.35
+      '@vue/runtime-dom': 3.2.35
+      '@vue/server-renderer': 3.2.35_vue@3.2.35
+      '@vue/shared': 3.2.35
+    dev: true
+
   /vuepress-vite/2.0.0-beta.45_gtzcsat75drht67vn5vdyktw5m:
     resolution: {integrity: sha512-1yARk4FLwaQIAqp3trRb4rhAT5blkBfVUaNtTiYwC3/TwUyFWhBBaIP8sugxUMXhAalvkpMEHFxaLm4BkLfWhw==}
     hasBin: true
@@ -4112,4 +4205,20 @@ packages:
 
   /wrappy/1.0.2:
     resolution: {integrity: sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8=}
+    dev: true
+
+  file:@vuepress-local/plugin-pwa-popup:
+    resolution: {directory: '@vuepress-local/plugin-pwa-popup', type: directory}
+    name: '@vuepress/plugin-pwa-popup'
+    version: 2.0.0-beta.45
+    dependencies:
+      '@vuepress/client': 2.0.0-beta.45
+      '@vuepress/core': 2.0.0-beta.45
+      '@vuepress/plugin-pwa': 2.0.0-beta.45
+      '@vuepress/shared': 2.0.0-beta.45
+      '@vuepress/utils': 2.0.0-beta.45
+      vue: 3.2.35
+    transitivePeerDependencies:
+      - '@types/babel__core'
+      - supports-color
     dev: true
