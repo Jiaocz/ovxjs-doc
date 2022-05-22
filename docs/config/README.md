@@ -15,4 +15,23 @@
 
 参考配置文档：[package.json - npmjs docs](https://docs.npmjs.com/cli/v7/configuring-npm/package-json)
 
+## `vite.config.ts`
+文件位于项目根目录中，其中是[vite](https://cn.vitejs.dev/)的相关配置
+
+所有项目都默认配置了一个api转发代理，即向`/api`的请求全部转发至`https://example.com`
+```ts{3-6}
+server: {
+    proxy: {
+      '/api': {
+        changeOrigin: true,
+        target: 'https://example.com',
+      }
+    },
+    https: false,
+  }
+```
+第8行设置了调试服务器不使用HTTPS。
+
+有关于`vite`的配置文档请参考：[配置 Vite](https://cn.vitejs.dev/config/)，关于代理服务器请看 [server.proxy - vite](https://cn.vitejs.dev/config/#server-proxy)。
+
 > 更新中
