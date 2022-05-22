@@ -74,7 +74,7 @@ module.exports = {
     }),
 
     plugins: [
-        pwaPlugin({ skipWaiting: true }),
+        pwaPlugin({ skipWaiting: false }),
         pwaPopupPlugin({
             locales: {
                 '/': {
