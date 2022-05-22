@@ -63,7 +63,6 @@ pnpx ovx@latest
 ```shell
 npx ovx@latest --registry=https://registry.npmmirror.com
 ```
-或者你可以使用[CNPM](https://github.com/cnpm/cnpm)
 :::
 
 ### NPM 全局安装
@@ -90,6 +89,8 @@ ovx
 
 ::: tip
 同样的，你也可以使用`--registry`的方式指定registry镜像
+
+或者你可以使用[CNPM](https://github.com/cnpm/cnpm)
 :::
 
 需要注意的是，使用npm全局安装只需要安装一次，后续可以使用`ovx`直接运行，但是需要注意的是npm**不会**自动更新ovx，因此需要有更新的时候手动更新。
