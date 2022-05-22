@@ -53,6 +53,7 @@ module.exports = {
             },
             {
                 text: '项目配置',
+                collapsible: true,
                 children: [
                     {
                         text: '通用配置',

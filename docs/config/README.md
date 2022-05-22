@@ -11,6 +11,8 @@
 - `lint:fix`: 语法检查并修复
 - `type-check`: TypeScript 语法检查
 
+使用`npm run <command>`运行命令，例如`npm run dev`。
+
 参考配置文档：[package.json - npmjs docs](https://docs.npmjs.com/cli/v7/configuring-npm/package-json)
 
 > 更新中
