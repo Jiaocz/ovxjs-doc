@@ -35,7 +35,7 @@ module.exports = {
             },
             {
                 text: 'Github',
-                link: 'https://github.com/Jiaocz/ovx'
+                link: 'https://github.com/ovx-js/ovx'
             },
             {
                 text: 'NpmJs',
@@ -63,9 +63,9 @@ module.exports = {
             },
         ],
         logo: 'https://static.orangii.cn/avatar/logo.svg',
-        repo: 'Jiaocz/ovxjs-doc',
+        repo: 'ovx-js/ovxjs-doc',
         repoLabel: '文档Github',
-        docsRepo: 'https://github.com/Jiaocz/ovxjs-doc',
+        docsRepo: 'https://github.com/ovx-js/ovxjs-doc',
         docsBranch: 'master',
         editLink: true,
         editLinkText: '在 GitHub 上编辑此页',
