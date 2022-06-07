@@ -17,5 +17,21 @@
         "sizes": "512x512",
         "type": "image/png"
       }
+    ],
+    "shortcuts": [
+      {
+        "name": "快速上手",
+        "short_name": "快速上手",
+        "description": "快速上手ovx",
+        "url": "/quick-start/",
+        "icons": [{ "src": "/images/icons/android-chrome-192x192.png", "size": 192}]
+      },
+      {
+        "name": "通用配置",
+        "short_name": "通用配置",
+        "description": "项目模板的通用配置",
+        "url": "/config/",
+        "icons": [{ "src": "/images/icons/android-chrome-192x192.png", "size": 192}]
+      }
     ]
   }
