@@ -2,7 +2,7 @@
 home: true
 heroText: ovx
 tagline: 一个生成 vue + vite 的脚手架 CLI
-footer: "<p>Copyright <a href='https://github.com/Jiaocz'>Orangii|橙梓</a> 2022.<br /><code>ovx</code> published under MIT, document published under CC-BY-4.0.</p><p><a href='https://beian.miit.gov.cn' target='_blank'>冀ICP备17024488号-4</a></p>"
+footer: "<p>&copy; <a href='https://github.com/Jiaocz'>Orangii|橙梓</a> 2022.<br /><code>ovx</code> published under MIT, document published under CC-BY-4.0.<br /><a href='https://webify.cloudbase.net/' target='_blank'>CloudBase Webify</a> 提供网站托管服务</p><p><a href='https://beian.miit.gov.cn' target='_blank'>冀ICP备17024488号-4</a></p>"
 footerHtml: true
 externalLinkIcon: false
 actions:
